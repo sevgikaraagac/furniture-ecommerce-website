@@ -104,17 +104,3 @@ Route::group(['prefix'=> 'panel', 'middleware'=> 'admin'], function(){
 
 
 });
-
-
-
-
-
-
-
-
-
-//
-////Route::group(['prefix'=>'shop'], function(){
-////    Route::get('/', 'ShopController@index')->name('Front.shop');
-//    Route::post('/shop_ekle', 'ShopController@shop_ekle')->name('Front.shop_ekle');
-//});

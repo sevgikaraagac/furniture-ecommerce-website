@@ -15,34 +15,18 @@ class homeController extends Controller
 {
     public function index(){
         $carts=Cart::all();
-
         $news=News::all();
         $menus=Menus::all()->take(4);
         View::share('menus', $menus);
         View::share('carts', $carts);
         View::share('news', $news);
         return view('Front.Home.index');
-
-
-
-
-
     }
 
     public function slide(){
         if( $news=News()->is_slider==1)
-
-//
-//        if (Auth::user() &&  Auth::user()->is_admin == 1) {
-//            return $next($request);
-//        }
-//        else{
-//            return redirect('/');
-//        }
-
         View::share('news', $news);
         return view('Front.Home.index');
-
     }
 
     public function ajax_news_get(){
@@ -51,12 +35,8 @@ class homeController extends Controller
     }
 
     public function ajax_news_tab(){
-
-
         $news=News::all()->take(4);
         return $news;
     }
-
-
 
 }

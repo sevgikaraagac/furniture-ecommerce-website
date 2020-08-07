@@ -102,7 +102,6 @@
 
                 $('#qwe').append('<h3>' + result[1]['title'] + '</h3>',
                                  '<p>' + result[1]['content'] + '</p>'
-
                 );
 
                     $('#div_1').append(
@@ -111,7 +110,6 @@
                     $('#div_2').append(
                         $('#img_2').attr('src', "images/news/" + result[2]['img_url'])
                     );
-
 
                 }
 
@@ -133,20 +131,9 @@
             }
         });
 
-
-
-
-
-
-
     });
 
 
-
-
 </script>
-
-
-
 
 @endsection

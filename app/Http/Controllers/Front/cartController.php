@@ -18,7 +18,6 @@ class cartController extends Controller
     {
         $subs = SubMenus::where('id', $id)->get();
         View::share('subs', $subs);
-
         return view('Front.Home.sepet');
     }
 
@@ -33,7 +32,6 @@ class cartController extends Controller
         $carts->price=$subs->price;
         $carts->user_id=Auth::user()->id;
         $carts->save();
-
         return redirect()->route('Front.sepet.index', $carts->id);
     }
 

@@ -14,10 +14,8 @@ class sepetController extends Controller
 {
     public function index($id)
     {
-
         $subs = SubMenus::where('id', $id)->get();
         View::share('subs', $subs);
-
         return view('Front.Home.sepet');
     }
 

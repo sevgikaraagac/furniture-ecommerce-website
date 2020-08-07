@@ -38,7 +38,6 @@ class shopController extends Controller
 
     public function ajaxRequestCart($qty)
     {
-
         $carts = Cart::where('id', $id)->get();
         $carts = new Cart();
         $carts->qty;

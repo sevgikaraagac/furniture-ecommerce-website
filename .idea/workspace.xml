@@ -1,7 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="970defb9-0fbf-4c8a-a572-a78170894ef5" name="Default Changelist" comment="" />
+    <list default="true" id="970defb9-0fbf-4c8a-a572-a78170894ef5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CMS/contentsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CMS/newsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CMS/newsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Front/aboutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Front/aboutController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Front/blog_tekController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Front/blog_tekController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Front/cartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Front/cartController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Front/categoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Front/categoriesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Front/contactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Front/contactController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Front/homeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Front/homeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Front/sepetController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Front/sepetController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Front/shopController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Front/shopController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Front/singleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Front/singleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/News.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/News.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Sepet.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Sepet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/SepetUrun.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/SubMenus.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/SubMenus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/a1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/a3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/accent.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/bedrooom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/blog1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/blog2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/blog3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/blog4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/blog5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/blog6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/category/news1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/category/news2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/category/post4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/dining-room.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/kitchen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/lightening.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/living-room.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/menus/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/menus/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/menus/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/menus/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/menus/a1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/menus/blog1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/menus/blog2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/menus/sofa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/menus/specialization.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/move-top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/news/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/news/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/news/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/news/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/news/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/news/a1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/news/a3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/news/accent.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/news/blog1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/news/blog2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/news/blog5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/news/blog6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/news/kitchen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/news/office-room.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/news/sofa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/news/t3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/news/t4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/news/wall.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/office-room.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/sofa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/soft.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/specialization.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/subs/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/subs/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/subs/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/subs/a1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/subs/a3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/subs/accent.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/subs/bedrooom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/subs/blog1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/subs/blog3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/subs/blog5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/subs/dining-room.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/subs/sofa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/t1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/t2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/t3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/t4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/t5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/t6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/te1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/te2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/urunler/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/urunler/a1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/urunler/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/urunler/news1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/urunler/post1-big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/urunler/post2-big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/urunler/post2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/urunler/post4-big.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/urunler/post4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/wall.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Front/Home/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Front/Home/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Front/Home/blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Front/Home/blog.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Front/Home/blog_tek.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Front/Home/blog_tek.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Front/Home/categories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Front/Home/categories.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Front/Home/contact.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Front/Home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Front/Home/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Front/Home/shop.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Front/Home/shop.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +124,9 @@
     <execution>
       <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="da5945b2-11cd-4d68-94a0-d9ec9336d73f" />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
@@ -111,6 +225,7 @@
   </component>
   <component name="ProjectId" id="1RMiYAfkOCMpl8eqBZcJHtkFdGC" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -181,10 +296,22 @@
       <workItem from="1572301550685" duration="625000" />
       <workItem from="1572338217864" duration="1279000" />
       <workItem from="1572426567147" duration="6896000" />
+      <workItem from="1596827552009" duration="2386000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -28,9 +28,4 @@ public function cart()
 {
     return $this->hasMany('App\Models\Cart' , 'sub_menu_id', 'id');
 }
-
-
-
-
-
 };

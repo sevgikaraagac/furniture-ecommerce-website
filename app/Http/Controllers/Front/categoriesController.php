@@ -17,9 +17,6 @@ class categoriesController extends Controller
         $menus=Menus::all();
         View::share('menus', $menus);
         View::share('news', $news);
-
-
-
         return view('Front.Home.categories');
     }
 

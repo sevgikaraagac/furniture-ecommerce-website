@@ -23,7 +23,4 @@ class aboutController extends Controller
         return $news;
     }
 
-
-
-
 }

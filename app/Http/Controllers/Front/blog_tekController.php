@@ -16,5 +16,4 @@ class blog_tekController extends Controller
         return view('Front.Home.blog_tek');
     }
 
-
 }

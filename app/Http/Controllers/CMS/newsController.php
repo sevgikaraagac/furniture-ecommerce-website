@@ -39,8 +39,6 @@ class newsController extends Controller
 
         $news->save();
         return redirect()->route('CMS.news.create');
-
-
     }
 
 
@@ -51,13 +49,11 @@ class newsController extends Controller
     }
 
 
-
     public function edit($id){
 
         $news=News::find($id);
         View::share('news', $news);
         return view('CMS.news.edit');
-
     }
 
     public function edit_post($id){
@@ -76,7 +72,6 @@ class newsController extends Controller
         return redirect()->route('CMS.news.list');
 
     }
-
 
 }
 

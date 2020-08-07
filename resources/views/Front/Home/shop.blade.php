@@ -116,11 +116,5 @@ function azalt( id) {
 
 }
 
-
-
-// })
-
-
-
     </script>
 @endsection

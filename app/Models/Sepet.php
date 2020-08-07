@@ -14,16 +14,4 @@ class Sepet extends Model
         'sub_menu_id',
 
     ];
-
-//    public function users()
-//    {
-//        return $this->belongsTo(Users::class, 'users_id');
-//    }
-//
-//    public function products()
-//    {
-//        return $this->belongsTo('App\Models\SubMenus', 'sub_id');
-//    }
-
-
 }

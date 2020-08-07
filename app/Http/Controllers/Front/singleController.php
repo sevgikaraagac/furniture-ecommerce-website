@@ -12,7 +12,6 @@ use Illuminate\Support\Facades\View;
 class singleController extends Controller
 {
     public function index($id){
-//        $menus=SubMenus::where('menu_id', $id)->get();
         $menus=SubMenus::where('menu_id', $id)->get();
         View::share('menus', $menus);
         return view('Front.Home.single');

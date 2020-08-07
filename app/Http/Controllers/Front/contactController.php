@@ -10,7 +10,6 @@ class contactController extends Controller
     public function index(){
 
     return view('Front.Home.contact');
-
 }
 
 }

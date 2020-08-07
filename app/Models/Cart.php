@@ -17,15 +17,5 @@ class Cart extends Model
         'price',
         'qty',
     ];
-
-
-//    public function products()
-//    {
-//        return $this->hasMany('App\Models\Sepet' , 'sub_menu_id', 'id');
-//    }
-
-
-
-
 }
 
